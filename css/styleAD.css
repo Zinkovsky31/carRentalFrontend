@@ -1,0 +1,215 @@
+
+@media(max-width: 1680px){
+
+	.visual{
+		margin-right: 10px ;
+	}
+}
+
+@media(max-width: 1580px){
+	.configuration{
+	
+		left: 5%;
+	}
+	.visual{
+		margin-right: 10px ;
+	}
+}
+@media(max-width: 1380px){
+	.language_menu{
+		width: 201px;
+		right: 99px;
+	
+	}
+
+
+	.visual{
+		margin-right: 10px ;
+	}
+
+	.logo_head{
+	
+		margin: 25px 0 0 100px;
+	
+	}
+	.call_head{
+		margin-right: 100px;
+	}
+	.window_main{
+		left: 20%;
+	}
+}
+@media(min-width: 1200px){
+	.configuration{
+	
+		margin-left: 10px;
+	}
+	
+}
+@media (max-width: 1000px){
+	.number{
+		font-size: 15px;
+		margin-left: 80px;;
+	}
+	
+	.navigation{
+		font-size: 15px;
+		margin-top: 40px;
+	}
+	
+	.configuration{
+		margin-left: 0;
+		left: 30%;
+	}
+	.visual{
+	margin-right: 110px;
+	padding-top: 100px;
+	
+	}
+	.auto_text_top{
+		
+		color: #757172;
+	}
+}
+@media (max-width: 900px){
+	.navigation{
+		font-size: 11px;
+		margin-top: 50px;
+	}
+	.number{
+		font-size: 11px;
+		margin-left: 40px;;
+	}
+}
+@media (max-width: 767px){
+	.navigation{
+		display: none;
+	}
+	.call_head{
+		margin-right: 5px;
+	}
+	.number{
+		margin-left: 0;
+	}
+	.language_menu{
+		right: 5px;
+	}
+	.visual{
+		margin-right: 10px;
+		padding-top: 100px;
+		
+	}
+	.configuration{
+		margin-left: 0;
+		left: 25%;
+	}
+}
+@media (max-width: 575px){
+	.logo_head{
+		margin-left: 5px;
+	}
+	.language_menu{
+		width: 153px;
+	}
+	.configuration{
+		margin-left: 0;
+		left: 12%;
+	}
+	.visual{
+		
+		margin-right: 0;
+		
+		padding-top: 100px;
+		
+	}
+	.auto_text_top{
+		font-size: 25px;
+		padding-left: 50px;
+		color: #757172;
+	}
+	.auto_text_bot{
+		padding-left: 50px;
+		font-size: 20px;
+	}
+	.auto_mercedes p{
+		padding-left: 150px;
+	}
+
+	.auto_bmw img{
+		width: 500px;
+		height: 250px;
+	}
+	.auto_mercedes img{
+		width: 500px;
+		height: 250px;
+	}
+	.btn{
+		background-color: #757172;
+		border-radius: 5px;
+	}
+
+	
+}
+@media (max-width: 375px){
+	.container_head{
+		display: block;
+	}
+	.logo_head{
+		float: none;
+	}
+	.language_menu{
+		z-index: 100;
+		width: 204px;
+		right: 5%;
+	}
+	.configuration{
+		margin-left: 0;
+		left: 0;
+		width: 375px;
+	}
+	.location,.other_loc,.drop,.pick_data,.drop_data,.auto{
+		margin-left: 1px;
+		margin-right: 0;
+	}
+	.pick_time,.drop_time{
+		margin-right: 0;
+		margin: 0;
+		left: 0;
+	}
+	.drop_data,.pick_data{
+		margin: 0;
+		margin-top: 17px;
+	}
+	.auto{
+		padding-right: 120px;
+	}
+	.form_location{
+		padding-right: 0;
+		width: 230px;
+	}
+	.button{
+		margin-left: 7px;
+		width: 350px;
+	}
+
+	
+	.button p{
+		font-size: 20px;
+		padding-left: 1px;
+		padding-right: 1px;
+		
+	}
+	.auto_bmw img{
+		width: 350px;
+		height: 200px;
+	}
+	.auto_mercedes img{
+		width: 350px;
+		height: 200px;
+	}
+	.btn{
+		position: static;
+		width: 110px;
+	}
+}
+

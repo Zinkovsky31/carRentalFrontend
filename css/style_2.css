@@ -1,0 +1,45 @@
+.button:hover{
+	cursor: pointer;
+	-webkit-user-select: none;
+	background-color: #716d6e;
+}
+.button p:hover{
+	background: #716d6e;
+	transition: 0.7s;
+}
+
+.button p:active{
+	border: 2px solid black; 
+	padding: 8px;
+}
+
+.btn img:hover{
+	cursor: pointer;
+}
+.language:hover{
+	cursor: pointer;
+}
+
+.language_menu li:hover{
+	cursor: pointer;
+	background: #efe9e9;
+}
+#span_2:hover{
+	cursor: pointer;
+}
+.drive_box:hover{
+	cursor: pointer;
+}
+.driver_key input:hover{
+	cursor: pointer;
+	background: #716d6e;
+	transition: 0.7s;
+}
+.driver_key input:active{
+	border: 2px solid black; 
+	margin-top: 5px;
+}
+
+.cross:hover{
+	cursor: pointer;
+}

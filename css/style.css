@@ -1,0 +1,400 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container_head {
+  width: 100%;
+  height: 130px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_head {
+  float: left;
+  margin: 25px 0 0 380px;
+  width: auto;
+}
+.call_head {
+  margin-right: 400px;
+}
+.contact {
+  display: flex;
+}
+.number {
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-left: 180px;
+  font-size: 17px;
+  color: #7c7275;
+}
+.language {
+  padding: 10px 15px;
+  background: #ffbf00;
+  color: white;
+  -webkit-user-select: none;
+}
+.language img {
+  padding-left: 10px;
+}
+.language_menu {
+  display: none;
+  padding: 0;
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid black;
+  width: 201px;
+  right: 399px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navigation {
+  padding-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #757172;
+  -webkit-user-select: none;
+}
+.navigation a {
+  padding: 0 5px;
+  color: #757172;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170;
+  margin: auto;
+  background: url(../img/layers.png) 0 0/100% 100% no-repeat;
+  height: 639px;
+}
+.content {
+  width: 99%;
+  height: 600px;
+}
+.configuration {
+  left: 15%;
+  position: relative;
+  width: 450px;
+  height: 475px;
+  background: white;
+  top: 10%;
+  margin-left: 366px;
+  float: left;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
+    7px 0 15px -4px rgba(0, 0, 0, 0.3), -7px 0 15px -4px rgba(0, 0, 0, 0.3);
+}
+.auto {
+  padding: 10px 140px 10px 10px;
+  max-width: 387px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #716d6e;
+}
+.location {
+  position: relative;
+  margin: 20px 10px 0 30px;
+}
+.pick {
+  color: #716d6e;
+  background-color: #efe9e9;
+  padding: 12px 20px;
+  font-size: 17px;
+}
+.form_location {
+  position: relative;
+  padding: 9px 6px 9px 15px;
+  width: 243px;
+  font-size: 20px;
+  color: #ffa800;
+  border-color: #efe9e9;
+}
+
+.form_location::placeholder {
+  color: #ffa800;
+}
+.other_loc {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.other_loc a {
+  color: #716d6e;
+}
+
+.drop {
+  position: relative;
+  margin: 10px 10px 0 30px;
+  display: none;
+}
+#drop_pick {
+  padding: 12px 12px 12px 20px;
+}
+
+.pick_period {
+  display: block;
+  height: 43px;
+}
+.pick_data {
+  position: relative;
+  margin: 25px 10px 0 30px;
+  width: 260px;
+  float: left;
+}
+.date {
+  position: relative;
+
+  width: 129px;
+  font-size: 17px;
+  color: #ffa800;
+  border-color: #efe9e9;
+}
+#date,
+#form_location {
+  padding: 14px 0 9px 5px;
+}
+.pick_time {
+  margin-top: 8px;
+  height: 35px;
+  float: right;
+  margin-right: 33px;
+}
+
+.time {
+  padding-left: 15px;
+  height: 48px;
+  width: 115px;
+  color: #ffa800;
+  border-color: #efe9e9;
+}
+
+.drop_data {
+  position: relative;
+  margin: 16px 10px 0 30px;
+  width: 260px;
+  float: left;
+}
+.drop_time {
+  height: 35px;
+  float: right;
+  margin-right: 33px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 388px;
+  box-shadow: 6px 6px 0 #efe9e9;
+}
+.button p {
+  color: #fff;
+  padding: 10px;
+  background: #ffb426;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.visual {
+  position: relative;
+  float: right;
+  /* margin-top: 30px;
+  margin-right: 300px; */
+}
+
+.auto_text_top {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+}
+.auto_text_bot {
+  font-size: 24px;
+  text-transform: none;
+  color: #716d6e;
+}
+.button_auto {
+  height: 36px;
+}
+
+.auto_bmw {
+  display: block;
+}
+
+.auto_mercedes {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  position: absolute;
+  top: 450px;
+  right: 500px;
+  display: none;
+}
+.btn img {
+  margin-left: 15px;
+}
+
+.window {
+  height: 800px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+  top: 8%;
+  bottom: 42%;
+  display: none;
+}
+
+.window_1 {
+  border: 1px solid #ffbf00;
+  width: 455px;
+  background-color: #ffff;
+  border-radius: 15px 0 0 15px;
+}
+.window_2 {
+  border: 1px solid #ffbf00;
+  background-color: #ffff;
+  min-width: 455px;
+  border-radius: 0 15px 15px 0;
+}
+
+.specifications {
+  word-spacing: 10px;
+  padding: 20px;
+}
+
+#engine,
+#year,
+#gearbox,
+#power,
+#drive,
+#seats {
+  white-space: nowrap;
+}
+
+.img_specific {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 300px;
+  height: 200px;
+}
+.value_car {
+  margin-top: 50px;
+  padding: 20px;
+}
+.value_car_price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.driver {
+  margin: 40px 0 0 20px;
+  font-size: 20px;
+}
+
+.driver_fio {
+  margin-top: 20px;
+}
+
+.driver_fio p {
+  margin-left: 50px;
+}
+
+.driver_fio input {
+  width: 80px;
+  height: 30px;
+  margin-left: 15px;
+}
+.driver_fio input:nth-child(2) {
+  margin-left: 50px;
+}
+.driver_contact p {
+  margin-left: 50px;
+  margin: 40px 0 0 20px;
+  font-size: 20px;
+}
+.driver_contact input {
+  margin-left: 50px;
+  width: 290px;
+  height: 30px;
+  margin-top: 15px;
+}
+.driver_comment p {
+  margin-left: 50px;
+  margin: 40px 0 0 20px;
+  font-size: 20px;
+}
+.driver_comment textarea {
+  margin-left: 50px;
+  width: 280px;
+  margin-top: 15px;
+  padding: 10px;
+  height: 100px;
+}
+.driver_text {
+  font-size: 13px;
+  margin: 20px 0 0 20px;
+}
+
+.driver_text span {
+  font-weight: bold;
+  line-height: 1.5;
+}
+.driver_checkbox {
+  display: flex;
+}
+
+.drive_box {
+  width: 30px;
+  height: 30px;
+
+  margin: 20px 0 0 20px;
+}
+.driver_agreement {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.driver_agreement span {
+  font-size: 15px;
+}
+#span_2 {
+  text-decoration: underline;
+}
+
+.driver_key {
+  margin: 20px 0 0 30px;
+}
+.driver_key input {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 100px 15px 100px;
+  background-color: #ffbf00;
+  text-transform: uppercase;
+  box-shadow: 6px 6px 0 #efe9e9;
+}
+.cross {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+
+.cross img {
+  width: 50px;
+  height: 50px;
+}
+.count_auto {
+  width: 800px;
+  height: 500px;
+}

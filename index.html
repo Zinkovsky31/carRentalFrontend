@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styleAD.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style_2.css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class="container_head">
+			<div class="logo_head">
+				<h1>
+					<a href=""><img src="img/logo.png"></a>
+				</h1>
+			</div>
+			<div class="call_head">
+				<div class="contact">
+					<div class="number">CONTACT: (562) 498-4600</div>
+					<div class="language"> Select your language
+						<img src="img/dropdown_icon___nitrogfxcom___all_for_webmasters_296.png">
+						<ul class="language_menu">
+							<li>
+								<a href="#">
+								<img src="img/United-States.png">	
+								England</a>
+							</li>
+							<li>
+								<a href="#">
+								<img src="img/Russia.png">	
+								Russia</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- <nav class="navigation">
+					<a href="">Home</a>
+					<a href="">Service</a>
+					<a href="">Vehicle Models</a>
+					<a href="">Locations</a>
+					<a href="">Reviews</a>
+					<a href="">Contac</a>
+				</nav> -->
+			</div>
+		</div>
+
+	</header>
+	<section>
+		<div class="container">
+			<div class="content">
+				<div class="configuration">
+					<p><select size="1" class="auto"> auto
+						<option selected disabled="">Select your car type</option>
+						<option value="Golf">Golf</option>
+						<option value="Audi">Audi</option>
+						<option value="BMW">BMW</option>
+						<option value="Mercedes_Benz">Mercedes_Benz</option>
+					</select></p>
+					<div class="location">
+						<span class="pick">
+							<span class="map_icon" >
+								<img src="img/map_icon_195.png">
+							</span>
+							Pick-up
+							
+						</span>
+						<input type="text" id="form_location" placeholder="Enter a City or Airport">
+
+					</div>
+					<div class="other_loc">
+						<a href="#"
+						id="1">Need a different drop-off location?</a>
+					</div>
+					<div class="drop">
+						<span class="pick" id="drop_pick">
+							<span class="map_icon" >
+								<img src="img/map_icon_195.png">
+							</span>
+							Drop-off
+							
+						</span>
+						<input type="text" id="form_location" placeholder="Enter a City or Airport">
+
+					</div>
+					<div class="pick_period">
+						<div class="pick_data">
+							<span class="pick">
+								<span class="map_icon">
+									<img src="img/ebene_2_266.png">
+								</span>
+								Pick-up
+								
+							</span>
+							<input type="date" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" id="date">
+						</div>
+						<div class="pick_time">
+							<p><select size="1" class="time"> Time
+							<option value="12:00 AM">12:00 AM</option>
+							<option value="01:00 AM">01:00 AM</option>
+							<option value="02:00 AM">02:00 AM</option>
+							<option value="03:00 AM">03:00 AM</option>
+							<option value="04:00 AM">04:00 AM</option>
+							<option value="05:00 AM">05:00 AM</option>
+							<option value="06:00 AM">06:00 AM</option>
+							<option value="07:00 AM">07:00 AM</option>
+							<option value="08:00 AM">08:00 AM</option>
+							<option value="09:00 AM">09:00 AM</option>
+							<option value="10:00 AM">10:00 AM</option>
+							<option value="11:00 AM">11:00 AM</option>
+							<option value="12:00 PM">12:00 PM</option>
+							<option value="01:00 PM">01:00 PM</option>
+							<option value="02:00 PM">02:00 PM</option>
+							<option value="03:00 PM">03:00 PM</option>
+							<option value="04:00 PM">04:00 PM</option>
+							<option value="05:00 PM">05:00 PM</option>
+							<option value="06:00 PM">06:00 PM</option>
+							<option value="07:00 PM">07:00 PM</option>
+							<option value="08:00 PM">08:00 PM</option>
+							<option value="09:00 PM">09:00 PM</option>
+							<option value="10:00 PM">10:00 PM</option>
+							<option value="11:00 PM">11:00 PM</option>
+					</select></p>
+						</div>
+					</div>
+					<div class="drop_period">
+						<div class="drop_data">
+							<span class="pick">
+								<span class="map_icon">
+									<img src="img/ebene_2_266.png">
+								</span>
+								Pick-up
+								
+							</span>
+							<input type="date" placeholder="mm/dd/yyyy" value="mm/dd/yyyy" id="date">
+						</div>
+						<div class="drop_time">
+							<p><select size="1" class="time"> Time
+								<option value="12:00 AM">12:00 AM</option>
+								<option value="01:00 AM">01:00 AM</option>
+								<option value="02:00 AM">02:00 AM</option>
+								<option value="03:00 AM">03:00 AM</option>
+								<option value="04:00 AM">04:00 AM</option>
+								<option value="05:00 AM">05:00 AM</option>
+								<option value="06:00 AM">06:00 AM</option>
+								<option value="07:00 AM">07:00 AM</option>
+								<option value="08:00 AM">08:00 AM</option>
+								<option value="09:00 AM">09:00 AM</option>
+								<option value="10:00 AM">10:00 AM</option>
+								<option value="11:00 AM">11:00 AM</option>
+								<option value="12:00 PM">12:00 PM</option>
+								<option value="01:00 PM">01:00 PM</option>
+								<option value="02:00 PM">02:00 PM</option>
+								<option value="03:00 PM">03:00 PM</option>
+								<option value="04:00 PM">04:00 PM</option>
+								<option value="05:00 PM">05:00 PM</option>
+								<option value="06:00 PM">06:00 PM</option>
+								<option value="07:00 PM">07:00 PM</option>
+								<option value="08:00 PM">08:00 PM</option>
+								<option value="09:00 PM">09:00 PM</option>
+								<option value="10:00 PM">10:00 PM</option>
+								<option value="11:00 PM">11:00 PM</option>
+					</select></p>
+						</div>
+					</div>
+					<div class="button" >
+						<p>continue car reservation</p>
+					</div>
+				
+				</div>
+				<div class="visual">
+					<div class="cont_auto">
+						<div class="auto_bmw" style="display: block;">
+							<p class="auto_text_top">Luxury car from from $28day</p>
+							<p class="auto_text_bot">Treat yourself in Germany</p>
+							<img src="img/car3.png">
+							
+						</div>
+						<div class="auto_mercedes">
+							<p class="auto_text_top">GET 15% OFF YOUR RENTAL</p>
+							<p class="auto_text_bot">Plan your trip now</p>
+							<img src="img/car4.png">
+						</div>
+						
+
+
+						<div class="btn">
+								<img id="101" src="img/slider_left.png" >
+								<img id="102" src="img/slider_right.png" >
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="window">
+		<div class="window_1">
+			<div>
+				<p><select size="1" class="auto"> auto
+						<option selected disabled="">Select your car type</option>
+						<option value="Golf">Golf</option>
+						<option value="Audi">Audi</option>
+						<option value="BMW">BMW</option>
+						<option value="Mercedes_Benz">Mercedes_Benz</option>
+					</select></p>
+			</div>
+
+			<div class="specifications">
+				Двигатель:<span></span>
+				Год:<span></span>
+				КПП:<span></span>
+				Мощьность:<span></span>
+				Привод:<span></span>
+				Мест:<span></span>
+			</div>
+			<div class="img_specific">
+				<img  src="img/car1.png" width="300"
+				height="200" >
+			</div>
+			<div class="value_car">
+				<p class="value_car_price">Стоимость</p>
+				<p>За сутки: <span id="priceForDay" ></span></p>	
+				<p>За весь период: <span></span></p>
+				<p>Подача: <span></span></p>	
+				<p>Возврат: <span></span></p>	
+				<p class="value_car_price">К оплате онлайн: <span></span></p>
+				<p class="value_car_price">Итого: <span id="resultSpan"></span></p>			
+			</div>
+		</div>
+		<div class="window_2">
+			<div class="driver">
+				Основной водитель
+			</div>
+			<div class="driver_fio">
+				<p>ФИО</p>
+				<input type="text" name="" placeholder="Фамилия">
+				<input type="text" name="" placeholder="Имя">
+				<input type="text" name="" placeholder="Отчество">
+			</div>
+			<div class="driver_contact">
+				<p>Контакты</p>
+				<input type="tel" name="" placeholder="Телефон"></br>
+				<input type="email" name="" placeholder="Электронная почта">
+			</div>
+			<div class="driver_comment">
+				<p>Комментарий</p>
+				<textarea></textarea>
+			</div>
+			<div class="driver_text">
+				<span>Депозит:</span> 5000 руб.</br>
+				<span>Лимит в сутки:</span> 300 км</br>
+				<span>Перепробег:</span> 5 руб./км
+			</div>
+			<div class="driver_checkbox">
+				<div class="driver_check">
+					<input type="checkbox" class="drive_box">
+				</div>
+				<div class="driver_agreement">
+					Я принимаю <span id="span_2">Правила и условия</br>
+				и Пользовательское соглашение</span>
+				</div>
+			</div>
+			<div class="driver_key">
+				<input type="submit" value="Забронировать" >
+			</div>
+			<div class="cross">
+				<img src="img/cross.png">
+			</div>
+		</div>
+
+		
+	</section>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
